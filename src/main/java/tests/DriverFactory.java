@@ -12,7 +12,6 @@ public class DriverFactory {
 	public static DriverFactory driverInstance = null;
 	public static String browserType = "chrome";
 
-		
     private DriverFactory()
     {
     	if (browserType.equals("chrome")) {
