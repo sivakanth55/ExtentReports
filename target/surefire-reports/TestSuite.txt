@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 58.164 s <<< FAILURE! - in TestSuite
+yahoo_test(tests.Test001)  Time elapsed: 24.833 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.Test001.yahoo_test(Test001.java:66)
+
+myntra_test(tests.Test002)  Time elapsed: 8.101 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.Test002.myntra_test(Test002.java:63)
+

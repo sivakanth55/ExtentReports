@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SivaTests">
+
+	<test name="SivaTests">
+
+		<classes>
+			<class name="tests.Test002">
+				<methods>
+					<include name="flipkart_test"></include>
+					<include name="jabong_test"></include>
+					<include name="myntra_test"></include>
+
+				</methods>
+			</class>
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

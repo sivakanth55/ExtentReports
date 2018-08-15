@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SivaTests]">
+  <test name="SivaTests(failed)">
+    <classes>
+      <class name="tests.Test001">
+        <methods>
+          <include name="yahoo_test"/>
+          <include name="getTestResult"/>
+          <include name="reportBegin"/>
+          <include name="reportEnd"/>
+        </methods>
+      </class> <!-- tests.Test001 -->
+      <class name="tests.Test002">
+        <methods>
+          <include name="getTestResult"/>
+          <include name="myntra_test"/>
+        </methods>
+      </class> <!-- tests.Test002 -->
+    </classes>
+  </test> <!-- SivaTests(failed) -->
+</suite> <!-- Failed suite [SivaTests] -->
